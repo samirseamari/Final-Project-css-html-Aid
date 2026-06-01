@@ -310,7 +310,36 @@ html {
   height: 100%;
   width: 80%;
   border-radius: 4px;
-  transition: width 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.progress-bar-fill2{
+  background-color: var(--primary-teal);
+  height: 100%;
+  width: 90%;
+  border-radius: 4px;
+}
+.progress-bar-fill3{
+  background-color: var(--primary-teal);
+  height: 100%;
+  width: 85%;
+  border-radius: 4px;
+}
+.progress-bar-fill4{
+  background-color: var(--primary-teal);
+  height: 100%;
+  width: 80%;
+  border-radius: 4px;
+}
+.progress-bar-fill5{
+  background-color: var(--primary-teal);
+  height: 100%;
+  width: 75%;
+  border-radius: 4px;
+}
+.progress-bar-fill6{
+  background-color: var(--primary-teal);
+  height: 100%;
+  width: 92%;
+  border-radius: 4px;
 }
 /* !Services  */
 .services-section {
@@ -1323,6 +1352,6 @@ textarea {
     width: 130px;
   }
   .arrow-icon{
-    background-color: red;
+    display: none;
   }
 }
