@@ -972,7 +972,7 @@ textarea {
   padding: 24px 0;
   color: #2b4356;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: bold;
   cursor: pointer;
   list-style: none;
   transition: color 0.3s ease;
