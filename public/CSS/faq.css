@@ -337,3 +337,40 @@ img{
   right: 0.5rem;
   position: fixed;
 }
+@media (max-width: 768px) {
+    .TheHeader {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .faq-content {
+    padding-left: 40px;
+  }
+  .tab-btn{
+    font-size: 10px;
+    padding: 15px;
+  }
+  .footer-top {
+    grid-template-columns: 1fr;
+    padding: 50px 25px;
+  }
+  .Copyright-foot {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .Copyright-foot {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .fa-angle-up {
+    display: none;
+  }
+}
