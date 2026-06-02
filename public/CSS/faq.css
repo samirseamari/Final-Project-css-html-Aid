@@ -337,6 +337,12 @@ img{
   right: 0.5rem;
   position: fixed;
 }
+@media (max-width: 1024px) {
+    .TheHeader {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 @media (max-width: 768px) {
     .TheHeader {
     flex-direction: column;
