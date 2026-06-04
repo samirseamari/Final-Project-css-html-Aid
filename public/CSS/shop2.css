@@ -78,6 +78,9 @@ html {
 .nav-links a:hover {
   color: var(--primary-teal);
 }
+.menu-toggle-cb{
+    appearance: none;
+}
 .div-search{
     display: flex;
     align-items: center;
@@ -402,9 +405,6 @@ img{
   right: 0.5rem;
   position: fixed;
 }
-/* .menu-toggle-cb{
-    appearance: none;
-} */
 @media (max-width: 768px) {
     .TheHeader {
     flex-direction: column;
@@ -418,15 +418,6 @@ img{
   .faq-content {
     padding-left: 40px;
   }
-  .number-cart1{
-    top: 160px;
-    right: 90px;
-  }
-  .number-cart{
-    top: 160px;
-    right: 55px;
-  }
-
   .footer-top {
     grid-template-columns: 1fr;
     padding: 50px 25px;
@@ -453,7 +444,8 @@ img{
     grid-template-columns: 1fr;
     justify-content: center;
   }
-   /* .burger-menu {
+  /* !burger */
+   .burger-menu {
     display: flex !important;
     flex-direction: column;
     justify-content: space-between;
@@ -462,7 +454,6 @@ img{
     cursor: pointer;
     z-index: 250;
   }
-
   .burger-menu span {
     display: block;
     width: 100%;
@@ -471,7 +462,6 @@ img{
     border-radius: 3px;
     transition: all 0.3s ease;
   }
-
   .nav-links {
     position: absolute;
     top:30%;
@@ -493,6 +483,13 @@ img{
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+  }
+  /* .burger-logo-div{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 100%;
+    justify-content: space-between;
   } */
 }
 @media (max-width: 1024px) {
