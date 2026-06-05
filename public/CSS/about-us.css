@@ -147,7 +147,7 @@ html {
 .contact-link{
     color: black;
 }
-/* todo this is the about section  */
+/* !AboutSection  */
 .about-section {
   width: 100%;
   background-color: #ffffff;
@@ -340,7 +340,7 @@ html {
 .icondoc{
     color: var(--primary-teal);
 }
-/*todo this is the Statistics Section */
+/* ! Statistics Section  */
 .statistics {
   padding: 0px 20px 80px 20px;
   background-color: white;
@@ -364,7 +364,7 @@ html {
   font-weight: 500;
 }
 
-/* todo this is the CTA Banner */
+/* !CTA Banner  */
 .cta-banner {
   background-color: var(--primary-teal);
   color: white;
@@ -505,4 +505,87 @@ html {
   bottom: 1rem;
   right: 0.5rem;
   position: fixed;
+}
+/* media  */
+@media (max-width: 1024px) {
+    .TheHeader {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+    .TheHeader {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .faq-content {
+    padding-left: 40px;
+  }
+  .tab-btn{
+    font-size: 10px;
+    padding: 15px;
+  }
+  .expertise-grid{
+    grid-template-columns: 1fr;
+  }
+  .doctors-grid{
+    grid-template-columns: 1fr;
+  }
+  .statistics-content {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  .footer-top {
+    grid-template-columns: 1fr;
+    padding: 50px 25px;
+  }
+  .Copyright-foot {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .Copyright-foot {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+  }
+  .fa-angle-up {
+    display: none;
+  }
+}
+@media (max-width: 426px) {
+    .cta-container{
+        flex-direction: column;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+    .img-back{
+        width: 200px;
+        height: 120px;
+    }
+    .img-front{
+        height: 120px;
+        width: 120px;
+        top: 30px;
+        left: 90px;
+    }
+}
+@media (min-width: 426px) and (max-width: 769px) {
+    .img-back{
+        width: 260px;
+        height: 180px;
+    }
+    .img-front{
+        height: 180px;
+        width: 180px;
+        top: 50px;
+    }
 }
